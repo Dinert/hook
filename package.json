@@ -1,0 +1,30 @@
+{
+  "name": "@dinert/hook",
+  "version": "0.01",
+  "description": "Vue3的hook",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "browser": "dist/bundle.umd.js",
+  "scripts": {
+    "dev": "rollup --config rollup.config.dev.js -w"
+  },
+  "author": "dinert",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/lodash": "^4.14.182",
+    "@vue/compiler-sfc": "^3.2.37",
+    "lodash": "^4.17.21",
+    "rollup": "^2.75.6",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-vue": "6.0.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  }
+}
