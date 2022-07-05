@@ -8,7 +8,7 @@
   * @param delay 
   * @param immediate 
   */
- const useWindowResize = (resize: Function, delay: number, immediate: _.DebounceSettingsLeading) => {
+  const useWindowResize = (resize: Function, delay: number, immediate: _.DebounceSettingsLeading) => {
    const onResize = () => {
      resize()
    }
