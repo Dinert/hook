@@ -1,6 +1,6 @@
 {
   "name": "@dinert/hook",
-  "version": "0.01",
+  "version": "0.0.2",
   "description": "Vue3的hook",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
